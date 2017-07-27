@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This week last project for The Hacking Project, based on instructions from : https://github.com/TheHackingProject/thp-session-01/tree/master/03_rails/semaine_04/07_28_VENDREDI/01_faire_un_site
 
-Things you may want to cover:
+This is supposed to look like a real website at the end.
+Let's see...
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+~vince~teamsouthpower~THP~
