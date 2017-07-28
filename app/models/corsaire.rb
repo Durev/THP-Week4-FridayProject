@@ -1,0 +1,2 @@
+class Corsaire < ApplicationRecord
+end
