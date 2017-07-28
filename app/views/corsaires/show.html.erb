@@ -1,2 +1,4 @@
-<h1>Corsaires#show</h1>
-<p>Find me in app/views/corsaires/show.html.erb</p>
+<h1>Hello <%= @corsaire.first_name %></h1>
+<p>You are <%= @corsaire.age %> years old</p>
+
+<%=link_to "Edit", edit_corsaire_path, class: "btn btn-lg btn-primary"%>
