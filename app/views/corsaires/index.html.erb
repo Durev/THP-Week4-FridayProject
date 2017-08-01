@@ -1,2 +1,17 @@
-<h1>Corsaires#index</h1>
-<p>Find me in app/views/corsaires/index.html.erb</p>
+<h1>Corsaires</h1>
+<% @corsaire.each do |each_corsaire| %>
+
+<h3><%= each_corsaire.first_name %></h3>
+<p><%= each_corsaire.age %></p>
+<p>
+	<a href="<%= corsaire_path(each_corsaire.id) %>" class="btn btn-primary">Know more</a>
+	<a href="<%= corsaire_path(each_corsaire.id) %>" class="btn btn-danger" data-confirm="Are you sure?" data-method="DELETE">Delete</a>
+</p>
+
+<% end %>
+
+<h3>Create New User</h3>
+<a href="<%=new_corsaire_path%>" class="btn btn-success">Create a new User</a>
+
+<!-- <%= link_to "Enregistre-toi !", new_corsaire_path, class: "btn btn-lg btn-primary" %> -->
+
